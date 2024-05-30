@@ -1,0 +1,21 @@
+{
+  "name": "jwt-to-spki",
+  "version": "1.0.0",
+  "description": "Convert jwt to spki",
+  "main": "app.js",
+  "repository": "https://github.com/kazuya-s/jwt-to-spki-app",
+  "author": "Kazuya-s",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "jose": "^5.3.0",
+    "yarn": "^1.22.22"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
